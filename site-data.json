@@ -37,7 +37,7 @@
     "portfolio": {
       "kicker": "Portfolio",
       "title": "Selected Work",
-      "intro": "A modular showcase built to scale cleanly as more projects are added. Every project row is rendered from this JSON and alternates automatically."
+      "intro": ""
     },
     "contact": {
       "kicker": "Contact",
@@ -66,7 +66,7 @@
     },
     "form": {
       "provider": "Formspree",
-      "action": "https://formspree.io/f/your-form-id",
+      "action": "https://formspree.io/f/meevzjoo",
       "method": "POST",
       "buttonLabel": "Send Message",
       "subjectPrefix": "Portfolio Inquiry",
