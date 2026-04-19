@@ -1,0 +1,142 @@
+{
+  "brand": {
+    "name": "fr_noah",
+    "eyebrow": "Solo Premium Roblox Developer",
+    "subtitle": "Premium Roblox development for polished gameplay, scalable systems, and serious experiences that feel clean from the first click to the final loop.",
+    "heroImage": "files/hero-placeholder.jpg",
+    "heroImageAlt": "Cinematic hero image for fr_noah",
+    "ctaLabel": "View Portfolio"
+  },
+  "theme": {
+    "background": "#07070d",
+    "backgroundSoft": "#10101b",
+    "surface": "rgba(17, 17, 30, 0.58)",
+    "surfaceStrong": "rgba(18, 18, 34, 0.82)",
+    "text": "#f5f7ff",
+    "muted": "#a7abc6",
+    "accent": "#8b5cf6",
+    "accent2": "#5b2fe0",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "glow": "rgba(139, 92, 246, 0.28)"
+  },
+  "nav": [
+    { "id": "home", "label": "Home" },
+    { "id": "portfolio", "label": "Portfolio" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "sections": {
+    "portfolio": {
+      "kicker": "Portfolio",
+      "title": "Selected Work",
+      "intro": "A modular showcase built to scale cleanly as more projects are added. Every project row is rendered from this JSON and alternates automatically."
+    },
+    "contact": {
+      "kicker": "Contact",
+      "title": "Let’s build something worth remembering.",
+      "intro": "Need systems, gameplay, UI, technical direction, or a full Roblox build pipeline. Reach out through any channel below or use the form."
+    }
+  },
+  "contact": {
+    "links": {
+      "discord": {
+        "label": "@yourdiscord",
+        "url": "https://discord.com/users/your-id"
+      },
+      "github": {
+        "label": "github.com/yourusername",
+        "url": "https://github.com/yourusername"
+      },
+      "email": {
+        "label": "you@example.com",
+        "url": "mailto:you@example.com"
+      },
+      "roblox": {
+        "label": "roblox.com/users/your-id/profile",
+        "url": "https://www.roblox.com/users/your-id/profile"
+      }
+    },
+    "form": {
+      "provider": "Formspree",
+      "action": "https://formspree.io/f/your-form-id",
+      "method": "POST",
+      "buttonLabel": "Send Message",
+      "subjectPrefix": "Portfolio Inquiry",
+      "placeholderNote": "Replace the placeholder endpoint in site-data.json to make this form live.",
+      "readyNote": "This form is connected and ready to receive submissions."
+    }
+  },
+  "projects": [
+    {
+      "title": "Project Aether",
+      "description": "Fast-paced Roblox combat experience with custom movement feel, responsive effects, and premium UI polish focused on retention and moment-to-moment clarity.",
+      "year": "2026",
+      "role": "Gameplay Systems • UI • Technical Direction",
+      "tags": ["Combat", "UX", "Systems"],
+      "media": [
+        {
+          "type": "image",
+          "path": "files/project-aether-1.jpg",
+          "alt": "Project Aether gameplay screenshot"
+        },
+        {
+          "type": "video",
+          "path": "files/project-aether-2.mp4",
+          "mime": "video/mp4",
+          "alt": "Project Aether gameplay video"
+        }
+      ]
+    },
+    {
+      "title": "Neon Freight",
+      "description": "Stylized logistics and tycoon framework with data-driven progression, scalable content hooks, and clean economic pacing for long-session play.",
+      "year": "2025",
+      "role": "Full Stack Roblox Development",
+      "tags": ["Economy", "Progression", "Data"],
+      "media": [
+        {
+          "type": "video",
+          "path": "files/neon-freight-1.mp4",
+          "mime": "video/mp4"
+        },
+        {
+          "type": "video",
+          "path": "files/neon-freight-2.mp4",
+          "mime": "video/mp4"
+        }
+      ]
+    },
+    {
+      "title": "Titan Arena",
+      "description": "Competitive multiplayer prototype built around strong readability, server-authoritative combat logic, and cinematic presentation that still stays performant.",
+      "year": "2025",
+      "role": "Networking • Combat Logic • Optimization",
+      "tags": ["Multiplayer", "Performance", "Combat"],
+      "media": [
+        {
+          "type": "image",
+          "path": "files/titan-arena-1.jpg",
+          "alt": "Titan Arena screenshot"
+        }
+      ]
+    },
+    {
+      "title": "Pulse Interface Kit",
+      "description": "Reusable premium UI layer for Roblox projects with glassy cards, animation states, modular panels, and a strong modern dashboard feel across devices.",
+      "year": "2024",
+      "role": "UI Systems • Motion Design",
+      "tags": ["UI", "Animation", "Reusable"],
+      "media": [
+        {
+          "type": "image",
+          "path": "files/pulse-kit-1.jpg",
+          "alt": "Pulse Interface Kit UI preview"
+        },
+        {
+          "type": "image",
+          "path": "files/pulse-kit-2.jpg",
+          "alt": "Pulse Interface Kit interface detail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fr_noah</title>
+  <meta name="description" content="Premium Roblox development portfolio for fr_noah." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <nav class="navbar glass">
+      <a href="#home" class="nav-brand" data-scroll>
+        <span id="navBrand">fr_noah</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks"></div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="section-shell hero-shell">
+        <div class="hero-copy glass reveal">
+          <p class="eyebrow" id="heroEyebrow">Solo Premium Developer</p>
+          <h1 id="heroTitle">fr_noah</h1>
+          <p class="hero-subtitle" id="heroSubtitle"></p>
+
+          <div class="hero-actions">
+            <a href="#portfolio" class="button button-primary" data-scroll id="heroCta">View Portfolio</a>
+          </div>
+        </div>
+
+        <div class="hero-visual glass reveal">
+          <div class="hero-image-wrap">
+            <img id="heroImage" src="" alt="Hero visual for fr_noah" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="section-shell">
+        <div class="section-head reveal">
+          <p class="section-kicker" id="portfolioKicker">Portfolio</p>
+          <h2 id="portfolioTitle">Selected Work</h2>
+          <p class="section-copy" id="portfolioIntro"></p>
+        </div>
+
+        <div class="projects" id="projects"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-shell">
+        <div class="section-head reveal">
+          <p class="section-kicker" id="contactKicker">Contact</p>
+          <h2 id="contactTitle">Let’s build something worth remembering.</h2>
+          <p class="section-copy" id="contactIntro"></p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-links glass reveal">
+            <div id="contactLinks"></div>
+          </div>
+
+          <div class="contact-form-card glass reveal">
+            <form id="contactForm" class="contact-form" method="POST">
+              <input type="hidden" name="_subject" id="formSubject" value="" />
+
+              <div class="field-row">
+                <label>
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Your name" required />
+                </label>
+
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@example.com" required />
+                </label>
+              </div>
+
+              <label>
+                <span>Project</span>
+                <input type="text" name="project" placeholder="What are you building?" />
+              </label>
+
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="6" placeholder="Tell me what you need." required></textarea>
+              </label>
+
+              <button type="submit" class="button button-primary" id="contactSubmit">Send Message</button>
+              <p class="form-note" id="formNote"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
