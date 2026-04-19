@@ -2,9 +2,9 @@
   "brand": {
     "name": "fr_noah",
     "eyebrow": "Solo Premium Roblox Developer",
-    "subtitle": "Premium Roblox development for polished gameplay, scalable systems, and serious experiences that feel clean from the first click to the final loop.",
-    "heroImage": "files/hero-placeholder.jpg",
-    "heroImageAlt": "Cinematic hero image for fr_noah",
+    "subtitle": "Premium Roblox development for polished gameplay, scalable systems, and serious experiences that feel clean from the first click to the final loop. Computer Science major planning on working in game development.",
+    "heroImage": "files/landing_image.png",
+    "heroImageAlt": "fr_noah",
     "ctaLabel": "View Portfolio"
   },
   "theme": {
@@ -39,20 +39,16 @@
   "contact": {
     "links": {
       "discord": {
-        "label": "@yourdiscord",
-        "url": "https://discord.com/users/your-id"
+        "label": "@fr_noah",
+        "url": "https://discord.com/users/fr_noah"
       },
       "github": {
-        "label": "github.com/yourusername",
-        "url": "https://github.com/yourusername"
-      },
-      "email": {
-        "label": "you@example.com",
-        "url": "mailto:you@example.com"
+        "label": "github.com/frnoah0",
+        "url": "https://github.com/frnoah0"
       },
       "roblox": {
-        "label": "roblox.com/users/your-id/profile",
-        "url": "https://www.roblox.com/users/your-id/profile"
+        "label": "roblox.com/users/1842291423/profile",
+        "url": "https://www.roblox.com/users/1842291423/profile"
       }
     },
     "form": {
@@ -67,41 +63,40 @@
   },
   "projects": [
     {
-      "title": "Project Aether",
-      "description": "Fast-paced Roblox combat experience with custom movement feel, responsive effects, and premium UI polish focused on retention and moment-to-moment clarity.",
-      "year": "2026",
-      "role": "Gameplay Systems • UI • Technical Direction",
-      "tags": ["Combat", "UX", "Systems"],
+      "title": "Benchpress Simulator - Top Games",
+      "description": "Addicting simulator based around benchpress and defeating bosses. Great core loop with top 10% retention.",
+      "year": "2023-2026",
+      "role": "Lead developer and game manager. Hired modelers, animators, and sound designers.",
+      "tags": ["Simulator", "UX", "Systems"],
       "media": [
         {
           "type": "image",
-          "path": "files/project-aether-1.jpg",
-          "alt": "Project Aether gameplay screenshot"
+          "path": "files/benchpress sim gui.png",
+          "alt": "Shop screenshot"
         },
         {
           "type": "video",
-          "path": "files/project-aether-2.mp4",
+          "path": "files/Benchpress sim example.mp4",
           "mime": "video/mp4",
-          "alt": "Project Aether gameplay video"
+          "alt": "Gameplay video"
         }
       ]
     },
     {
-      "title": "Neon Freight",
-      "description": "Stylized logistics and tycoon framework with data-driven progression, scalable content hooks, and clean economic pacing for long-session play.",
-      "year": "2025",
+      "title": "Bottom games",
+      "description": "Roblox gambling game. Top game in the roblox gambling scene. Amazing UI and game design.",
+      "year": "2023",
       "role": "Full Stack Roblox Development",
       "tags": ["Economy", "Progression", "Data"],
       "media": [
         {
           "type": "video",
-          "path": "files/neon-freight-1.mp4",
+          "path": "files/bottom games gui.mp4",
           "mime": "video/mp4"
         },
         {
-          "type": "video",
-          "path": "files/neon-freight-2.mp4",
-          "mime": "video/mp4"
+          "type": "Image",
+          "path": "files/bottom games crash.png"
         }
       ]
     },
