@@ -19,6 +19,21 @@
     "border": "rgba(255, 255, 255, 0.1)",
     "glow": "rgba(139, 92, 246, 0.28)"
   },
+
+  "projectOrder": [
+    "benchpress-simulator",
+    "shark-game",
+    "alien-invasion",
+    "murder-mystery-3",
+    "bottom-games",
+    "fish-a-brainrot",
+    "blade-simulator",
+    "box-pickup",
+    "coffee-machine",
+    "worldbox"
+  ],
+
+
   "nav": [
     {
       "id": "home",
@@ -75,143 +90,148 @@
     }
   },
   "projects": [
-    {
-      "title": "Benchpress Simulator",
-      "description": "A high-retention Roblox simulator built around strength progression, boss fights, and a satisfying core gameplay loop. Designed to keep progression clear, rewarding, and easy to come back to.",
-      "year": "2023-2026",
-      "role": "Lead Developer • Game Management",
-      "tags": [
-        "Simulator",
-        "Progression",
-        "Systems"
-      ],
-      "media": [
-        {
-          "type": "image",
-          "path": "files/benchpress sim gui.png",
-          "alt": "Benchpress Simulator shop interface"
-        },
-        {
-          "type": "video",
-          "path": "https://media.frnoah.com/Benchpress%20sim%20example.mp4",
-          "mime": "video/mp4",
-          "alt": "Benchpress Simulator gameplay video"
-        }
-      ]
-    },
-    {
-      "title": "Bottom Games",
-      "description": "A polished chance-based Roblox experience with strong presentation, clean interface design, and a focused gameplay loop built for the niche it targeted.",
-      "year": "2023",
-      "role": "Full Stack Roblox Development",
-      "tags": [
-        "UI",
-        "Economy",
-        "Game Design"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "path": "files/bottom games gui.mp4",
-          "mime": "video/mp4",
-          "alt": "Bottom Games interface video"
-        },
-        {
-          "type": "image",
-          "path": "files/bottom games crash.png",
-          "alt": "Bottom Games crash mode screenshot"
-        }
-      ]
-    },
-    {
-      "title": "Shark Game",
-      "description": "A Roblox survival project inspired by Squid Game. I worked as one of two scripters, helping build core gameplay logic and improve the overall playability of the experience before release plans changed.",
-      "year": "2025",
-      "role": "Scripting • Game Logic • Optimization",
-      "tags": [
-        "Multiplayer",
-        "Game Logic",
-        "Optimization"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "path": "https://media.frnoah.com/2026-04-19%2012-36-15.mp4",
-          "mime": "video/mp4",
-          "alt": "Shark Game gameplay footage"
-        }
-      ]
-    },
-    {
-      "title": "Fish a Brainrot",
-      "description": "Commission project where I worked on rod behavior, fishing mechanics, and general gameplay improvements to help make the experience feel complete and playable.",
-      "year": "2026",
-      "role": "Fishing Systems • Gameplay Support",
-      "tags": [
-        "Fishing Systems",
-        "Gameplay",
-        "Commission"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "path": "files/fishit1.mp4",
-          "mime": "video/mp4",
-          "alt": "Fish a Brainrot gameplay clip one"
-        },
-        {
-          "type": "video",
-          "path": "files/fishit2.mp4",
-          "mime": "video/mp4",
-          "alt": "Fish a Brainrot gameplay clip two"
-        }
-      ]
-    },
-
-    {
-      "title": "Blade Simulator",
-      "description": "A smaller commission project where I contributed interface work and supporting gameplay scripting to help improve both presentation and usability.",
-      "year": "2022",
-      "role": "UI • Scripting",
-      "tags": [
-        "UI",
-        "Scripting",
-        "Commission"
-      ],
-      "media": [
-        {
-          "type": "image",
-          "path": "files/blade sim diamond.png",
-          "alt": "Blade Simulator diamond interface"
-        },
-        {
-          "type": "image",
-          "path": "files/blade sim gold.png",
-          "alt": "Blade Simulator gold interface"
-        }
-      ]
-    },
-
-    {
-      "title": "Box Pickup",
-      "description": "A smaller commission project where I built a box pickup and drop-off system, focusing on clear interaction flow and reliable gameplay behavior.",
-      "year": "2022",
-      "role": "Scripting",
-      "tags": [
-        "Scripting",
-        "Gameplay Systems",
-        "Commission"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "path": "files/box pickup.mp4",
-          "mime": "video/mp4",
-          "alt": "Box Pickup gameplay video"
-        }
-      ]
+  {
+    "id": "benchpress-simulator",
+    "title": "Benchpress Simulator",
+    "description": "A high-retention Roblox simulator built around strength progression, boss fights, and a satisfying core gameplay loop. Designed to keep progression clear, rewarding, and easy to come back to. Reached over 4 million visits",
+    "year": "2023-2026",
+    "role": "Lead Developer • Game Management",
+    "tags": [
+      "Simulator",
+      "Progression",
+      "Systems"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "path": "files/benchpress sim gui.png",
+        "alt": "Benchpress Simulator shop interface"
+      },
+      {
+        "type": "video",
+        "path": "https://media.frnoah.com/Benchpress%20sim%20example.mp4",
+        "mime": "video/mp4",
+        "alt": "Benchpress Simulator gameplay video"
+      }
+    ]
   },
   {
+    "id": "bottom-games",
+    "title": "Bottom Games",
+    "description": "A polished chance-based Roblox experience with strong presentation, clean interface design, and a focused gameplay loop built for the niche it targeted.",
+    "year": "2023",
+    "role": "Full Stack Roblox Development",
+    "tags": [
+      "UI",
+      "Economy",
+      "Game Design"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "files/bottom games gui.mp4",
+        "mime": "video/mp4",
+        "alt": "Bottom Games interface video"
+      },
+      {
+        "type": "image",
+        "path": "files/bottom games crash.png",
+        "alt": "Bottom Games crash mode screenshot"
+      }
+    ]
+  },
+  {
+    "id": "shark-game",
+    "title": "Shark Game",
+    "description": "A Roblox survival project inspired by Squid Game. I worked as one of two scripters, helping build core gameplay logic and improve the overall playability of the experience before release plans changed.",
+    "year": "2025",
+    "role": "Scripting • Game Logic • Optimization",
+    "tags": [
+      "Multiplayer",
+      "Game Logic",
+      "Optimization"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "https://media.frnoah.com/2026-04-19%2012-36-15.mp4",
+        "mime": "video/mp4",
+        "alt": "Shark Game gameplay footage"
+      }
+    ]
+  },
+  {
+    "id": "fish-a-brainrot",
+    "title": "Fish a Brainrot",
+    "description": "Commission project where I worked on rod behavior, fishing mechanics, and general gameplay improvements to help make the experience feel complete and playable.",
+    "year": "2026",
+    "role": "Fishing Systems • Gameplay Support",
+    "tags": [
+      "Fishing Systems",
+      "Gameplay",
+      "Commission"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "files/fishit1.mp4",
+        "mime": "video/mp4",
+        "alt": "Fish a Brainrot gameplay clip one"
+      },
+      {
+        "type": "video",
+        "path": "files/fishit2.mp4",
+        "mime": "video/mp4",
+        "alt": "Fish a Brainrot gameplay clip two"
+      }
+    ]
+  },
+  {
+    "id": "blade-simulator",
+    "title": "Blade Simulator",
+    "description": "A smaller commission project where I contributed interface work and supporting gameplay scripting to help improve both presentation and usability.",
+    "year": "2022",
+    "role": "UI • Scripting",
+    "tags": [
+      "UI",
+      "Scripting",
+      "Commission"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "path": "files/blade sim diamond.png",
+        "alt": "Blade Simulator diamond interface"
+      },
+      {
+        "type": "image",
+        "path": "files/blade sim gold.png",
+        "alt": "Blade Simulator gold interface"
+      }
+    ]
+  },
+  {
+    "id": "box-pickup",
+    "title": "Box Pickup",
+    "description": "A smaller commission project where I built a box pickup and drop-off system, focusing on clear interaction flow and reliable gameplay behavior.",
+    "year": "2022",
+    "role": "Scripting",
+    "tags": [
+      "Scripting",
+      "Gameplay Systems",
+      "Commission"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "files/box pickup.mp4",
+        "mime": "video/mp4",
+        "alt": "Box Pickup gameplay video"
+      }
+    ]
+  },
+  {
+    "id": "coffee-machine",
     "title": "Coffee Machine",
     "description": "A smaller commission project where I worked on a coffee machine and creamer system, helping make the interaction feel clean, functional, and polished in-game.",
     "year": "2022",
@@ -229,6 +249,65 @@
         "alt": "Coffee Machine system gameplay video"
       }
     ]
+  },
+  {
+    "id": "worldbox",
+    "title": "WorldBox",
+    "description": "A sandbox-style commission project where I worked on grid-based item placement and world interaction systems. Even though the project did not move forward, it was a strong showcase of my scripting ability in placement logic and world-building tools.",
+    "year": "2023",
+    "role": "Scripting • Placement Systems",
+    "tags": [
+      "Grid Placement",
+      "World Systems",
+      "Commission"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "https://media.frnoah.com/worldbox%20tree%20place.mp4",
+        "mime": "video/mp4",
+        "alt": "WorldBox placement system footage"
+      }
+    ]
+  },
+  {
+    "id": "alien-invasion",
+    "title": "Alien Invasion",
+    "description": "A small personal project I started independently to stay sharp and experiment with gameplay ideas. While it was never meant to be a major release, it shows solid scripting fundamentals and clean implementation.",
+    "year": "2025",
+    "role": "Solo Development • Scripting",
+    "tags": [
+      "Personal Project",
+      "Gameplay",
+      "Scripting"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "https://media.frnoah.com/alien_invasion.mp4",
+        "mime": "video/mp4",
+        "alt": "Alien Invasion gameplay footage"
+      }
+    ]
+  },
+  {
+    "id": "murder-mystery-3",
+    "title": "Murder Mystery 3",
+    "description": "My first serious Roblox project, built as the owner and sole developer. I grew it to 1.6 million visits, making it an important early milestone in both my technical growth and understanding of live game development.",
+    "year": "2021",
+    "role": "Owner • Solo Developer",
+    "tags": [
+      "Solo Project",
+      "Live Ops",
+      "Game Development"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "path": "files/mm3.png",
+        "alt": "Murder Mystery 3 screenshot"
+      }
+    ]
   }
-  ]
+]
 }
