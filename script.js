@@ -85,7 +85,18 @@ function renderPortfolio(data) {
 
   const container = document.getElementById("projects");
 
-  container.innerHTML = data.projects
+  const projectMap = new Map((data.projects || []).map((project) => [project.id, project]));
+  const orderedProjects = (data.projectOrder || [])
+    .map((id) => projectMap.get(id))
+    .filter(Boolean);
+
+  const fallbackProjects = (data.projects || []).filter(
+    (project) => !orderedProjects.some((ordered) => ordered.id === project.id)
+  );
+
+  const finalProjects = [...orderedProjects, ...fallbackProjects];
+
+  container.innerHTML = finalProjects
     .map((project, index) => {
       const reverseClass = index % 2 === 1 ? "is-reverse" : "";
       const mediaCountClass = `count-${Math.min(project.media.length, 2)}`;
