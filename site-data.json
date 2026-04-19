@@ -76,7 +76,7 @@
         },
         {
           "type": "video",
-          "path": "files/Benchpress sim example.mp4",
+          "path": "https://media.frnoah.com/Benchpress%20sim%20example.mp4",
           "mime": "video/mp4",
           "alt": "Gameplay video"
         }
