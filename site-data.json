@@ -2,9 +2,9 @@
   "brand": {
     "name": "fr_noah",
     "eyebrow": "Solo Premium Roblox Developer",
-    "subtitle": "Premium Roblox development for polished gameplay, scalable systems, and serious experiences that feel clean from the first click to the final loop. Computer Science major planning on working in game development.",
+    "subtitle": "Premium Roblox development focused on polished gameplay, scalable systems, and memorable experiences that feel clean from the first click to the final loop. Computer science major with a long-term focus on game development.",
     "heroImage": "files/landing_image.png",
-    "heroImageAlt": "fr_noah",
+    "heroImageAlt": "fr_noah landing image",
     "ctaLabel": "View Portfolio"
   },
   "theme": {
@@ -20,9 +20,18 @@
     "glow": "rgba(139, 92, 246, 0.28)"
   },
   "nav": [
-    { "id": "home", "label": "Home" },
-    { "id": "portfolio", "label": "Portfolio" },
-    { "id": "contact", "label": "Contact" }
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "portfolio",
+      "label": "Portfolio"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
   ],
   "sections": {
     "portfolio": {
@@ -33,7 +42,7 @@
     "contact": {
       "kicker": "Contact",
       "title": "Let’s build something worth remembering.",
-      "intro": "Need systems, gameplay, UI, technical direction, or a full Roblox build pipeline. Reach out through any channel below or use the form."
+      "intro": "Need systems, gameplay, UI, technical direction, or full Roblox development support. Reach out through any channel below or use the form."
     }
   },
   "contact": {
@@ -45,6 +54,10 @@
       "github": {
         "label": "github.com/frnoah0",
         "url": "https://github.com/frnoah0"
+      },
+      "email": {
+        "label": "you@example.com",
+        "url": "mailto:you@example.com"
       },
       "roblox": {
         "label": "roblox.com/users/1842291423/profile",
@@ -63,75 +76,159 @@
   },
   "projects": [
     {
-      "title": "Benchpress Simulator - Top Games",
-      "description": "Addicting simulator based around benchpress and defeating bosses. Great core loop with top 10% retention.",
+      "title": "Benchpress Simulator",
+      "description": "A high-retention Roblox simulator built around strength progression, boss fights, and a satisfying core gameplay loop. Designed to keep progression clear, rewarding, and easy to come back to.",
       "year": "2023-2026",
-      "role": "Lead developer and game manager. Hired modelers, animators, and sound designers.",
-      "tags": ["Simulator", "UX", "Systems"],
+      "role": "Lead Developer • Game Management",
+      "tags": [
+        "Simulator",
+        "Progression",
+        "Systems"
+      ],
       "media": [
         {
           "type": "image",
           "path": "files/benchpress sim gui.png",
-          "alt": "Shop screenshot"
+          "alt": "Benchpress Simulator shop interface"
         },
         {
           "type": "video",
           "path": "https://media.frnoah.com/Benchpress%20sim%20example.mp4",
           "mime": "video/mp4",
-          "alt": "Gameplay video"
+          "alt": "Benchpress Simulator gameplay video"
         }
       ]
     },
     {
-      "title": "Bottom games",
-      "description": "Roblox gambling game. Top game in the roblox gambling scene. Amazing UI and game design.",
+      "title": "Bottom Games",
+      "description": "A polished chance-based Roblox experience with strong presentation, clean interface design, and a focused gameplay loop built for the niche it targeted.",
       "year": "2023",
       "role": "Full Stack Roblox Development",
-      "tags": ["Economy", "Progression", "Data"],
+      "tags": [
+        "UI",
+        "Economy",
+        "Game Design"
+      ],
       "media": [
         {
           "type": "video",
           "path": "files/bottom games gui.mp4",
-          "mime": "video/mp4"
+          "mime": "video/mp4",
+          "alt": "Bottom Games interface video"
         },
         {
-          "type": "Image",
-          "path": "files/bottom games crash.png"
+          "type": "image",
+          "path": "files/bottom games crash.png",
+          "alt": "Bottom Games crash mode screenshot"
         }
       ]
     },
     {
-      "title": "Titan Arena",
-      "description": "Competitive multiplayer prototype built around strong readability, server-authoritative combat logic, and cinematic presentation that still stays performant.",
+      "title": "Shark Game",
+      "description": "A Roblox survival project inspired by Squid Game. I worked as one of two scripters, helping build core gameplay logic and improve the overall playability of the experience before release plans changed.",
       "year": "2025",
-      "role": "Networking • Combat Logic • Optimization",
-      "tags": ["Multiplayer", "Performance", "Combat"],
+      "role": "Scripting • Game Logic • Optimization",
+      "tags": [
+        "Multiplayer",
+        "Game Logic",
+        "Optimization"
+      ],
       "media": [
         {
-          "type": "image",
-          "path": "files/titan-arena-1.jpg",
-          "alt": "Titan Arena screenshot"
+          "type": "video",
+          "path": "https://media.frnoah.com/2026-04-19%2012-36-15.mp4",
+          "mime": "video/mp4",
+          "alt": "Shark Game gameplay footage"
         }
       ]
     },
     {
-      "title": "Pulse Interface Kit",
-      "description": "Reusable premium UI layer for Roblox projects with glassy cards, animation states, modular panels, and a strong modern dashboard feel across devices.",
-      "year": "2024",
-      "role": "UI Systems • Motion Design",
-      "tags": ["UI", "Animation", "Reusable"],
+      "title": "Fish a Brainrot",
+      "description": "Commission project where I worked on rod behavior, fishing mechanics, and general gameplay improvements to help make the experience feel complete and playable.",
+      "year": "2026",
+      "role": "Fishing Systems • Gameplay Support",
+      "tags": [
+        "Fishing Systems",
+        "Gameplay",
+        "Commission"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "path": "files/fishit1.mp4",
+          "mime": "video/mp4",
+          "alt": "Fish a Brainrot gameplay clip one"
+        },
+        {
+          "type": "video",
+          "path": "files/fishit2.mp4",
+          "mime": "video/mp4",
+          "alt": "Fish a Brainrot gameplay clip two"
+        }
+      ]
+    },
+
+    {
+      "title": "Blade Simulator",
+      "description": "A smaller commission project where I contributed interface work and supporting gameplay scripting to help improve both presentation and usability.",
+      "year": "2022",
+      "role": "UI • Scripting",
+      "tags": [
+        "UI",
+        "Scripting",
+        "Commission"
+      ],
       "media": [
         {
           "type": "image",
-          "path": "files/pulse-kit-1.jpg",
-          "alt": "Pulse Interface Kit UI preview"
+          "path": "files/blade sim diamond.png",
+          "alt": "Blade Simulator diamond interface"
         },
         {
           "type": "image",
-          "path": "files/pulse-kit-2.jpg",
-          "alt": "Pulse Interface Kit interface detail"
+          "path": "files/blade sim gold.png",
+          "alt": "Blade Simulator gold interface"
         }
       ]
-    }
+    },
+
+    {
+      "title": "Box Pickup",
+      "description": "A smaller commission project where I built a box pickup and drop-off system, focusing on clear interaction flow and reliable gameplay behavior.",
+      "year": "2022",
+      "role": "Scripting",
+      "tags": [
+        "Scripting",
+        "Gameplay Systems",
+        "Commission"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "path": "files/box pickup.mp4",
+          "mime": "video/mp4",
+          "alt": "Box Pickup gameplay video"
+        }
+      ]
+  },
+  {
+    "title": "Coffee Machine",
+    "description": "A smaller commission project where I worked on a coffee machine and creamer system, helping make the interaction feel clean, functional, and polished in-game.",
+    "year": "2022",
+    "role": "Scripting",
+    "tags": [
+      "Scripting",
+      "Interaction Systems",
+      "Commission"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "path": "files/coffie machine.mp4",
+        "mime": "video/mp4",
+        "alt": "Coffee Machine system gameplay video"
+      }
+    ]
+  }
   ]
 }
