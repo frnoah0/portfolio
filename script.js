@@ -156,7 +156,6 @@ function renderContact(data) {
 
   const links = [
     { platform: "Discord", value: contact.links.discord.label, url: contact.links.discord.url },
-    { platform: "GitHub", value: contact.links.github.label, url: contact.links.github.url },
     { platform: "Email", value: contact.links.email.label, url: contact.links.email.url },
     { platform: "Roblox", value: contact.links.roblox.label, url: contact.links.roblox.url }
   ];
